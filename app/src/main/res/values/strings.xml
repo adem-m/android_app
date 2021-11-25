@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Mon comparateur</string>
+    <string name="bar_code">Code barres : </string>
+    <string name="quantity">Quantité : </string>
+    <string name="sold_in">Vendu en : </string>
+    <string name="ingredients">Ingrédients : </string>
+    <string name="allergens">Substances allergènes : </string>
+    <string name="additives">Additifs : </string>
+    <string name="nutriscore">Nutriscore : </string>
+    <string name="calories"> kCal/part</string>
+    <string name="no_scanned">Vous n\'avez encore rien scanné !</string>
+    <string name="no_scanned_subtitle">Cliquez sur le bouton ci-dessous pour commencer</string>
+    <string name="no_scanned_button">SCANNEZ UN PRODUIT</string>
+    <string name="sheet">Fiche</string>
+    <string name="nutrition">Nutrition</string>
+    <string name="tab">Tableau</string>
+</resources>

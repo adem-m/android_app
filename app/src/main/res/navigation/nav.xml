@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav"
+    app:startDestination="@id/searchListFragment">
+
+    <fragment
+        android:id="@+id/sheet_button"
+        android:name="com.mrizak.app.fragments.ProductSheetFragment"
+        android:label="ProductSheetFragment" >
+        <argument android:name="product" />
+    </fragment>
+    <fragment
+        android:id="@+id/nutrition_button"
+        android:name="com.mrizak.app.fragments.NutritionFragment"
+        android:label="NutritionFragment" />
+    <fragment
+        android:id="@+id/tab_button"
+        android:name="com.mrizak.app.fragments.NutritionalInformationFragment"
+        android:label="NutritionalInformationFragment" />
+    <fragment
+        android:id="@+id/searchListFragment"
+        android:name="com.mrizak.app.fragments.SearchListFragment"
+        android:label="SearchListFragment" >
+        <action
+            android:id="@+id/action_searchListFragment_to_productDetailsFragment"
+            app:destination="@id/productDetailsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/productDetailsFragment"
+        android:name="com.mrizak.app.fragments.ProductDetailsFragment"
+        android:label="ProductDetailsFragment" />
+</navigation>

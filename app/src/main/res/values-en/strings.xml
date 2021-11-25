@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">OpenFoodFacts</string>
+    <string name="bar_code">Bar code : </string>
+    <string name="quantity">Quantity : </string>
+    <string name="sold_in">Sold in : </string>
+    <string name="ingredients">Ingredients : </string>
+    <string name="allergens">Allergens : </string>
+    <string name="additives">Additives : </string>
+    <string name="nutriscore">Nutriscore : </string>
+    <string name="calories"> kCal/part</string>
+    <string name="no_scanned">You haven\'t scanned anything yet !</string>
+    <string name="no_scanned_subtitle">Click the button below to start</string>
+    <string name="no_scanned_button">SCAN A PRODUCT</string>
+    <string name="sheet">Sheet</string>
+    <string name="nutrition">Nutrition</string>
+    <string name="tab">Table</string>
+</resources>
